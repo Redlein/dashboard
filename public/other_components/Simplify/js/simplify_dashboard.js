@@ -60,9 +60,10 @@ $(function	()	{
 		}
 	});
 
-	plotWithOptions();
+	//plotWithOptions();
 
 	//Morris Chart (Total Visits)
+	/*
 	var totalVisitChart = Morris.Bar({
 	  element: 'totalSalesChart',
 	  data: [
@@ -81,7 +82,7 @@ $(function	()	{
 	  grid: false,
 	  gridTextColor: '#777',
 	});
-	
+	*/
 
 	//Datepicker
 	$('#calendar').DatePicker({
@@ -114,6 +115,8 @@ $(function	()	{
 	setTimeout(function() {
 		$('.chat-alert').removeClass('active');
 	}, 8000);
+
+	/*
 	
 	$(window).resize(function(e)	{
 		// Redraw All Chart
@@ -137,5 +140,5 @@ $(function	()	{
 			totalVisitChart.redraw();
 			plotWithOptions();
 		},500);
-	});
+	});*/
 });
